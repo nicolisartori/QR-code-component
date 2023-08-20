@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Outfit:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    display: block;    
+    align-items: self-start;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 480px;
+    border-radius: 5%;
+}
+
+img {
+    width: 270px;
+    padding: 15px;
+    border-radius: 10%;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    color: hsl(218, 44%, 22%)
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 0px) and (max-width: 500px) {
+    .container {
+        margin-left: 17%;
+    }
+}
